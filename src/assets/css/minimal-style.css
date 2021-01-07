@@ -1,0 +1,14 @@
+body, html {
+  /* 消除浏览器自带外边距 */
+  margin: 0;
+  /* 设置页面背景 */
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  /* 设置是否及如何重复背景图像，定义了图像的平铺模式，no-repeat背景图像将仅显示一次 */
+  background-repeat: no-repeat;
+  /* 当页面的其余部分滚动时，背景图像不会移动 */
+  background-attachment: fixed;
+  /* 按指定比例放缩，设置背景图片大小 */
+  background-size: 100% 100%;
+  /* 让背景变黑，主要作用于滚轴 */
+  background-color: #000;
+}
